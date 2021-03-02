@@ -5,6 +5,8 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 main {

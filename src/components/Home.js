@@ -34,9 +34,7 @@ useEffect(()=>{
 
   return (
     
-    <div id='home' className="container">
-      <div className="row">{display()}</div>
-    </div>
+    <div id='home'> {display()} </div>
   
   )
 };
