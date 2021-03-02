@@ -22,17 +22,16 @@ const Skills = () => {
     <div id='skills' >
       <h2>Vanessa's Skills</h2>
       
-      <div className="row">
-        <div className="col s4"><img className="col s4 col-content" alt="CSS" src={CSS} /></div>
-        <div className="col s4"><img className="col s4 col-content" alt="HTML" src={HTML} /></div>
-        <div className="col s4"><img className="col s4 col-content" alt="javascript" src={javascript} /></div>
-        <div className="col s4"><img className="col s4 col-content" alt="ReactIcon" src={ReactIcon} /></div>
-        <div className="col s4"><img className="col s4 col-content" alt="NodeJs" src={NodeJs} /></div>
-        <div className="col s4"><img className="col s4 col-content" alt="Postgress" src={Postgress} /></div>
-        <div className="col s4"><img className="col s4 col-content" alt="MongoDb2" src={MongoDb2} /></div>
-        <div className="col s4"><img className="col s4 col-content" alt="Python" src={Python} /></div>
-        <div className="col s4"><img className="col s4 col-content" alt="Postman2" src={Postman2} /></div>
-        <div className="col s4"><img className="col s4 col-content" alt="flaskLogo" src={flaskLogo} /></div>
+      <div className="row ">
+        <img className="col s4 col-content" alt="CSS" src={CSS} />
+        <img className="col s4 col-content" alt="HTML" src={HTML} />
+        <img className="col s4 col-content" alt="javascript" src={javascript} />
+        <img className="col s4 col-content" alt="ReactIcon" src={ReactIcon} />
+        <img className="col s4 col-content" alt="Postgress" src={Postgress} />
+        <img className="col s4 col-content" alt="MongoDb2" src={MongoDb2} />
+        <img className="col s4 col-content" alt="Python" src={Python} />
+        <img className="col s4 col-content" alt="Postman2" src={Postman2} />
+        <img className="col s4 col-content" alt="NodeJs" src={NodeJs} />
       </div>
         
       

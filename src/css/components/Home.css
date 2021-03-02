@@ -1,9 +1,27 @@
+
+
 body {
+    background-color:  #00838f;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+
   }
 
   main {
     flex: 1 0 auto;
   }
+
+  .card {
+    /* margin: 0 1rem 1rem 1rem; */
+  }
+
+  .btn-large a{
+    color: white;
+    font-family: 'Comfortaa', cursive;
+   }
+
+
+
+
+
