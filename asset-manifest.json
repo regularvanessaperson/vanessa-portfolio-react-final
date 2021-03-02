@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/vanessa-portfolio-react-final/static/css/main.9c85a997.chunk.css",
+    "main.css": "/vanessa-portfolio-react-final/static/css/main.17a0ceee.chunk.css",
     "main.js": "/vanessa-portfolio-react-final/static/js/main.c5f3fdf8.chunk.js",
     "main.js.map": "/vanessa-portfolio-react-final/static/js/main.c5f3fdf8.chunk.js.map",
     "runtime-main.js": "/vanessa-portfolio-react-final/static/js/runtime-main.b7ab56c3.js",
@@ -8,7 +8,7 @@
     "static/js/2.95555963.chunk.js": "/vanessa-portfolio-react-final/static/js/2.95555963.chunk.js",
     "static/js/2.95555963.chunk.js.map": "/vanessa-portfolio-react-final/static/js/2.95555963.chunk.js.map",
     "index.html": "/vanessa-portfolio-react-final/index.html",
-    "static/css/main.9c85a997.chunk.css.map": "/vanessa-portfolio-react-final/static/css/main.9c85a997.chunk.css.map",
+    "static/css/main.17a0ceee.chunk.css.map": "/vanessa-portfolio-react-final/static/css/main.17a0ceee.chunk.css.map",
     "static/js/2.95555963.chunk.js.LICENSE.txt": "/vanessa-portfolio-react-final/static/js/2.95555963.chunk.js.LICENSE.txt",
     "static/media/CSS.36b2d80f.png": "/vanessa-portfolio-react-final/static/media/CSS.36b2d80f.png",
     "static/media/MongoDb2.8b870384.png": "/vanessa-portfolio-react-final/static/media/MongoDb2.8b870384.png",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.b7ab56c3.js",
     "static/js/2.95555963.chunk.js",
-    "static/css/main.9c85a997.chunk.css",
+    "static/css/main.17a0ceee.chunk.css",
     "static/js/main.c5f3fdf8.chunk.js"
   ]
 }
