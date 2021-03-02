@@ -67,7 +67,7 @@ const Layout = (props) => {
               <Button className="waves-effect waves-light btn-large " type="button" label="linkedin" href="https://www.linkedin.com/in/vanessa-avila-52abb452/" />
             </div>
             <div className="col s3 offset-s1"> 
-              <Button className="waves-effect waves-light btn-large " type="button" label="resume" href="https://www.linkedin.com/in/vanessa-avila-52abb452/" />
+              <Button className="waves-effect waves-light btn-large " type="button" label="resume" href="https://docs.google.com/document/d/1agdc6V1LmXXHeiUJp-tYgvwhwhbUgl2z8beXvRbZn5s/edit?usp=sharing" />
             </div>
 
           </div>

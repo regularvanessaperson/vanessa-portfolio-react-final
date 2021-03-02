@@ -20,7 +20,7 @@ const Skills = () => {
 
   return (
     <div id='skills' >
-      <h2>Vanessa's Skills</h2>
+      <h2 className="center-align"> Skills</h2>
       
       <div className="row ">
         <img className="col s4 col-content" alt="CSS" src={CSS} />
