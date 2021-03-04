@@ -5,6 +5,7 @@ import Spinner from './common/Spinner'
 import About from './About'
 import Projects from './Projects'
 import Skills from './Skills'
+import Contact from './Contact'
 
 //CSS import
 import "../css/components/Home.css";
@@ -26,6 +27,7 @@ useEffect(()=>{
         <About />
         <Projects />
         <Skills />
+        <Contact />
       </div>
 
     }
