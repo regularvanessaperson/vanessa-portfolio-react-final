@@ -8,8 +8,8 @@ const Contact = () => {
     
       const sendEmail =(e)=> {
         e.preventDefault();
-    
-        emailjs.sendForm('service_rjcqkrf', 'portfolio_template', e.target, 'user_2pwo1A8WhLsoz3joTbUaF')
+        console.log(process.env)
+        emailjs.sendForm('service_rjcqkrf', 'portfolio_template', e.target, process.env.REACT_APP_USER_ID)
           .then((result) => {
               console.log(result.text);
           }, (error) => {
