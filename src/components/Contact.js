@@ -9,12 +9,13 @@ const Contact = () => {
       const sendEmail =(e)=> {
         e.preventDefault();
     
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+        emailjs.sendForm('service_rjcqkrf', 'portfolio_template', e.target, 'user_2pwo1A8WhLsoz3joTbUaF')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
               console.log(error.text);
           });
+          e.target.reset()
       }
     
       return (
@@ -23,12 +24,12 @@ const Contact = () => {
         <form className="contact-form text-white" onSubmit={sendEmail}>
           <input className="contact-input" type="hidden" name="contact_number" />
           <label className="contact-label">Name</label>
-          <input type="text" name="user_name" />
+          <input type="text" name="from_name" />
           <label className="contact-label">Email</label>
-          <input className="contact-input"type="email" name="user_email" />
+          <input className="contact-input"type="email" name="from_email" />
           <label className="contact-label">Message</label>
           <textarea name="message" />
-          <input type="submit" value="Send" className="send-button contact-input btn"/>
+          <input className="send-button contact-input btn" type="submit" value="Send" />
         </form>
         </div>
       );

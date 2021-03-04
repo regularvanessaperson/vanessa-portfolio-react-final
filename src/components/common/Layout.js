@@ -21,7 +21,7 @@ const Layout = (props) => {
     return child
   }
   )
-  console.log(page)
+  // console.log(page)
   return (
     <div>
       <div className="navbar-fixed relative ">
@@ -62,17 +62,17 @@ const Layout = (props) => {
     <div >
       <footer className="page-footer cyan darken-4 ">
         <div className="container ">
-          <div className="row">
-            <div className="col s4 center">
-              <Button className="waves-effect waves-light btn-flat flow-text hide-on-med-and-up show-on-small" type="button" label="github" href="https://github.com/regularvanessaperson" />
+          <div className="row space-between">
+            <div className="col s4 ">
+              <Button className="waves-effect waves-light btn btn-flat flow-text hide-on-med-and-up show-on-small" type="button" label="github" href="https://github.com/regularvanessaperson" />
               <Button className="waves-effect waves-light btn btn-large hide-on-small-only show-on-medium-and-up" type="button" label="github" href="https://github.com/regularvanessaperson" />
             </div>
-            <div className="col s4 center ">
-              <Button className="waves-effect waves-light btn-flat flow-text hide-on-med-and-up show-on-small" type="button" label="linkedin" href="https://www.linkedin.com/in/vanessa-avila-52abb452/" />
+            <div className="col s4  ">
+              <Button className="waves-effect waves-light btn btn-flat flow-text hide-on-med-and-up show-on-small" type="button" label="linkedin" href="https://www.linkedin.com/in/vanessa-avila-52abb452/" />
               <Button className="waves-effect waves-light btn btn-large hide-on-small-only show-on-medium-and-up" type="button" label="linkedin" href="https://www.linkedin.com/in/vanessa-avila-52abb452/" />
             </div>
-            <div className="col s4 center "> 
-              <Button className="waves-effect waves-light btn-flat flow-text  hide-on-med-and-up show-on-small" type="button" label="resume" href="https://docs.google.com/document/d/1agdc6V1LmXXHeiUJp-tYgvwhwhbUgl2z8beXvRbZn5s/edit?usp=sharing" />
+            <div className="col s4  "> 
+              <Button className="waves-effect waves-light btn btn-flat flow-text  hide-on-med-and-up show-on-small" type="button" label="resume" href="https://docs.google.com/document/d/1agdc6V1LmXXHeiUJp-tYgvwhwhbUgl2z8beXvRbZn5s/edit?usp=sharing" />
               <Button className="waves-effect waves-light btn btn-large hide-on-small-only show-on-medium-and-up" type="button" label="resume" href="https://docs.google.com/document/d/1agdc6V1LmXXHeiUJp-tYgvwhwhbUgl2z8beXvRbZn5s/edit?usp=sharing" />
             </div>
           </div>
