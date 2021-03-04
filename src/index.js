@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+require('dotenv').config();
 //React router
 import {BrowserRouter ,Switch} from 'react-router-dom'
 
