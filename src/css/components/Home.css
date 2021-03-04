@@ -5,6 +5,8 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    font-weight: bolder;
+  color: #263238  ;
 
   }
 
@@ -16,12 +18,9 @@ body {
     /* margin: 0 1rem 1rem 1rem; */
   /* }  */
 
-  .btn-large a{
+  .btn a {
     color: white;
     font-family: 'Comfortaa', cursive;
    }
 
-
-
-
-
+  

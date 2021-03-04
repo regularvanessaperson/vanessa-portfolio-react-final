@@ -7,6 +7,7 @@ import Skills from "./components/Skills"
 import Projects from "./components/Projects"
 import About from "./components/About"
 import Layout from "./components/common/Layout"
+import Contact from "./components/Contact"
 import M from 'materialize-css/dist/js/materialize.min.js'
 
 // CSS imports
@@ -22,10 +23,11 @@ const App = () => {
   return (
     <div className="">
     <Layout>
-      <Route exact path='/' component = {Home} />
-      <Route  exact path='/skills' component = {Skills} />
-      <Route exact path='/projects' component = {Projects} />
-      <Route exact path='/about' component = {About} />
+      <Route path='/' component = {Home} />
+      <Route path='/skills' component = {Skills} />
+      <Route path='/projects' component = {Projects} />
+      <Route path='/about' component = {About} />
+      <Route path='/contact' component= {Contact} />
     </Layout>
     </div>
   );

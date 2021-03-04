@@ -1,0 +1,24 @@
+.contact-form {
+   border-style: groove;
+    background-color:#eceff1 ;
+    padding-bottom: 2rem;
+    color: black;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+
+.contact-div {
+    padding-bottom: 5%;
+}
+
+.send-button {
+    width: 100%;
+    background-color:#00bfa5 ;
+}
+
+
+.contact-label, .contact-form{
+  font-weight: bolder;
+  color: #263238  ;
+}
