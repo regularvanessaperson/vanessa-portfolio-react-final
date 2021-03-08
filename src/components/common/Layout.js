@@ -1,20 +1,15 @@
 import React, { useEffect } from 'react'
 import Button from './Button'
-import M from 'materialize-css/dist/js/materialize.min.js'
+
 
 
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
+//CSS import
+import "../../css/components/Home.css";
+
 // replace a tag with Link
 const Layout = (props) => {
-
-  useEffect(() => {
-    const M = window.M;
-    document.addEventListener('DOMContentLoaded', function () {
-      let elems = document.querySelectorAll('.sidenav');
-      let instances = M.Sidenav.init(elems, 100);
-    });
-  }, [])
 
 
   let page = props.children.map(child => {
@@ -27,8 +22,8 @@ const Layout = (props) => {
       <div className="navbar-fixed relative ">
         <nav>
           <div className="nav-wrapper cyan darken-4">
-          <a href="#home" className="brand-logo left hide-on-small-only">Vanessa Avila</a>
-          <a href="#home" className="brand-logo left show-on-small hide-on-med-and-up ">VA </a>
+          <a href="#home" className="brand-logo left hide-on-small-only nav-name">Vanessa Avila</a>
+          <a href="#home" className="brand-logo left show-on-small hide-on-med-and-up nav-name">VA </a>
             {/* <a href="#" data-target="mobile-demo" className="right sidenav-trigger"><i className="right material-icons">menu</i></a> */}
 
             <ul id="nav-mobile" className="right show-on-large hide-on-med-and-down">

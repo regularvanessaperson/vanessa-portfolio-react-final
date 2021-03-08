@@ -23,4 +23,11 @@ body {
     font-family: 'Comfortaa', cursive;
    }
 
-  
+   .profile-pic {
+     margin-top: 2rem;
+   }
+
+   
+   .nav-name {
+     padding-left: 10px;
+   }
