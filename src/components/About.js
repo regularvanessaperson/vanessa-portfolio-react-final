@@ -11,7 +11,7 @@ const About = () => {
 
       <div id='about' className=" row " >
         <div className="col s12 m6 l4">
-          <img className="responsive-img z-depth-2 mt-2" src={profile} />
+          <img className="responsive-img z-depth-2 mt-2 profile-pic" src={profile} />
         </div>
         <div className="col s12 m6 l8">
           <h3>Hi, I'm Vanessa</h3>
