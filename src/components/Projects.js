@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 
-import M from 'materialize-css/dist/js/materialize.min.js'
 
 
 import project1 from '../images/project1.png'
@@ -23,15 +22,6 @@ const Projects = () => {
 
 
   useEffect(() => {
-    // Init Tabs Materialize JS
-    // initializeCarousel()
-    const M = window.M
-    document.addEventListener('DOMContentLoaded', function () {
-      var elems = document.querySelectorAll('.modal');
-      var instances = M.Modal.init(elems, {});
-
-
-    });
     setLoading(false)
   }, [])
 
