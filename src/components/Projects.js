@@ -54,6 +54,14 @@ const Projects = () => {
           </div>
           <div className="card-content">
             <span className="card-title activator grey-text text-darken-4">Board Game Library<i className="material-icons right">+</i></span>
+            {/* <div className="card-text d-flex flex-row flex-wrap" >
+              <div className="p-2">Javascript </div>
+              <div className="p-2">Express </div> 
+              <div className="p-2">Postgresql </div> 
+              <div className="p-2">Sequalize </div> 
+              <div className="p-2">Node.js </div> 
+              <div className="p-2">EJS  Templates</div>         
+            </div> */}
             <div className="card-action">
               <a href="https://github.com/regularvanessaperson/project-2-818">Github</a>
               <a href="https://board-game-library-app-project.herokuapp.com/">Deployed App</a>
