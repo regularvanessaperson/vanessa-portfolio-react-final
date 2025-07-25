@@ -1,6 +1,5 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
-
 //CSS import
 import "../css/components/Contact.css";
 
@@ -9,13 +8,13 @@ const Contact = () => {
       const sendEmail =(e)=> {
         e.preventDefault();
 
-        emailjs.sendForm(process.env.SERVICE_ID, 'portfolio_template', e.target, process.env.REACT_APP_USER_ID)
+        emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, e.target, process.env.REACT_APP_EMAILJS_PUBLIC_KEY)
           .then((result) => {
               console.log(result.text);
           }, (error) => {
               console.log(error.text);
           });
-          e.target.reset()
+        e.target.reset()
       }
     
       return (
@@ -26,7 +25,7 @@ const Contact = () => {
           <label className="contact-label">Name</label>
           <input type="text" name="from_name" />
           <label className="contact-label">Email</label>
-          <input className="contact-input"type="email" name="from_email" />
+          <input className="contact-input" type="email" name="from_email" />
           <label className="contact-label">Message</label>
           <textarea name="message" />
           <input className="send-button contact-input btn" type="submit" value="Send" />
