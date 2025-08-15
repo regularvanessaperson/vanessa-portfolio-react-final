@@ -64,7 +64,7 @@ const Projects = () => {
             </div> */}
             <div className="card-action">
               <a href="https://github.com/regularvanessaperson/project-2-818">Github</a>
-              <a href="https://board-game-library-app-project.herokuapp.com/">Deployed App</a>
+              <a href="https://board-game-library-app-project.herokuapp.com/" disabled>Not Deployed</a>
             </div>
           </div>
           <div className="card-reveal">
@@ -80,7 +80,7 @@ const Projects = () => {
             <span className="card-title activator grey-text text-darken-4">Chirper<i className="material-icons right">+</i></span>
             <div className="card-action">
               <a href="https://github.com/regularvanessaperson/Team-7-frontend">Github</a>
-              <a href="https://chirper-chirp.herokuapp.com/login">Deployed App</a>
+              <a href="https://chirper-chirp.herokuapp.com/login" disabled>Not Deployed</a>
             </div>
           </div>
           <div className="card-reveal">
@@ -96,7 +96,7 @@ const Projects = () => {
             <span className="card-title activator grey-text text-darken-4">Tarot Journal<i className="material-icons right">+</i></span>
             <div className="card-action">
               <a href="https://github.com/regularvanessaperson/frontend-next-tarot">Github</a>
-              <a href="https://tarotjournal-front.herokuapp.com/">Deployed App</a>
+              <a  href="https://tarotjournal-front.herokuapp.com/" disabled>Not Deployed</a>
             </div>
           </div>
           <div className="card-reveal">

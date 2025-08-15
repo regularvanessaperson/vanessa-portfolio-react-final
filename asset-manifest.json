@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.640459f6.css",
+    "main.js": "/static/js/main.4e58be27.js",
+    "static/media/project2.png": "/static/media/project2.3c7b776dbdff5ec92fea.png",
+    "static/media/profile.jpg": "/static/media/profile.bbe20d413433d70d3a7b.jpg",
+    "static/media/project4.png": "/static/media/project4.dd1ab8fb631ce0d6d283.png",
+    "static/media/Postman2.png": "/static/media/Postman2.b26ca5debd4456d0d32f.png",
+    "static/media/ReactIcon.png": "/static/media/ReactIcon.e89858b29f371d654760.png",
+    "static/media/project3.png": "/static/media/project3.b39609e349c30a108a09.png",
+    "static/media/project1.png": "/static/media/project1.8d0552890b68c4644b0a.png",
+    "static/media/Postgress.png": "/static/media/Postgress.45f1a28df63db225db66.png",
+    "static/media/flaskLogo.png": "/static/media/flaskLogo.1d18708b215b33729612.png",
+    "static/media/MongoDb2.png": "/static/media/MongoDb2.8b87038434ded30e0ceb.png",
+    "static/media/Python.png": "/static/media/Python.006dfbe33bdc5b6c6d01.png",
+    "static/media/CSS.png": "/static/media/CSS.36b2d80f5a5991ca3a4b.png",
+    "index.html": "/index.html",
+    "main.640459f6.css.map": "/static/css/main.640459f6.css.map",
+    "main.4e58be27.js.map": "/static/js/main.4e58be27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.640459f6.css",
+    "static/js/main.4e58be27.js"
+  ]
+}
